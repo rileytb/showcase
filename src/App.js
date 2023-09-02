@@ -1,12 +1,11 @@
 import './App.css';
+import avatar from './avatar.jpg';
 
 const showcaseUrl = 'https://github.com/rileytb/showcase';
 const linkedInUrl = 'https://www.linkedin.com/in/riley-t-brown/';
 const cyaHelperApp = 'https://bandoleer-7ad60.web.app/';
 const cyaHelperPlayStore =
   'https://play.google.com/store/apps/details?id=com.cyahelper&pcampaignid=web_share';
-const profilePicUrl =
-  'https://media.licdn.com/dms/image/D5635AQEX4SnWjNBaBw/profile-framedphoto-shrink_200_200/0/1692895111300?e=1694188800&v=beta&t=9ZC88CPBDQpGIyFi_QZe7ZrpcREy_vt3_032qqWELKA';
 const droidDepotUrl = 'https://github.com/rileytb/droid-depot-bt';
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
 
               <div className="avatar">
                 <div className="w-24 rounded-3xl">
-                  <img alt="Riley" src={profilePicUrl} />
+                  <img alt="Riley" src={avatar} />
                 </div>
               </div>
               <p className="py-6">
