@@ -28,7 +28,8 @@ function App() {
                 micro-frontends, and maintaining high development standards.
               </p>
               <a
-                className="link link-primary"
+                role="button"
+                className="btn btn-primary"
                 href={linkedInUrl}
                 target="_blank"
                 rel="noreferrer"
@@ -105,17 +106,30 @@ function App() {
       <footer className="footer fixed bottom-0 p-10 bg-neutral text-neutral-content">
         <div>
           <span className="footer-title">About this website</span>
-          <a
-            href={showcaseUrl}
-            className="link link-primary link-hover"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github repo
-          </a>
-          <div>
-            <p>React website (CRA), deployed through github actions.</p>
-          </div>
+          <p>
+            View the{' '}
+            <a
+              href={showcaseUrl}
+              className="link link-secondary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github repo
+            </a>
+          </p>
+          <p>React (CRA), deployed through github actions.</p>
+          <p>
+            Using{' '}
+            <a
+              target="_blank"
+              href="https://daisyui.com/"
+              rel="noreferrer"
+              className="link link-secondary"
+            >
+              daisyUI
+            </a>{' '}
+            styles and themes
+          </p>
         </div>
       </footer>
     </>
